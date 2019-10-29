@@ -8,6 +8,7 @@ composer require cache.lot/client
 ## Example
 ```php
 require "./vendor/autoload.php";
+use Cachelot\Action as Cachelot;
 
 //Connect ro server
 $Cachelot = new Cachelot("127.0.0.1", 3000);
